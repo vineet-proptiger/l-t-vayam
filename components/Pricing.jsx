@@ -71,7 +71,7 @@ const Pricing = ({ setIsOpen }) => {
             letterSpacing: "0.1em", textTransform: "uppercase",
             border: "1px solid var(--color-gold)", marginBottom: "10px",
           }}>
-            WAGLE ESTATE, THANE — PREMIUM RESIDENCES
+            Vayam, THANE — PREMIUM RESIDENCES
           </span>
           <h2
             className="font-bold mb-4"

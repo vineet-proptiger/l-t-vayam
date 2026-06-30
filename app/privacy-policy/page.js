@@ -27,7 +27,7 @@ export default function PrivacyPolicy() {
 
         <div className="container mx-auto px-4 md:px-8 flex items-center justify-between h-[80px]">
           <Link href="/" className="flex items-center">
-            <img src={logoImages.tarc} alt="L&T Wagle Estate" className="h-10 sm:h-16 w-auto object-contain" />
+            <img src={logoImages.tarc} alt="L&T Vayam" className="h-10 sm:h-16 w-auto object-contain" />
           </Link>
           <Link
             href="/"
@@ -305,7 +305,7 @@ export default function PrivacyPolicy() {
       {/* ── Footer (mini) ── */}
       <footer style={{ background: 'var(--color-dark)', color: '#fff', padding: '24px', textAlign: 'center', borderTop: '1px solid #333' }}>
         <p style={{ fontSize: '13px', color: '#888', fontFamily: 'var(--font-sans)' }}>
-          &copy; 2026 L&T Wagle Estate. All rights reserved |{' '}
+          &copy; 2026 L&T Vayam. All rights reserved |{' '}
           <Link href="/" style={{ color: 'var(--color-gold)', textDecoration: 'none' }}>Back to Home</Link>
         </p>
       </footer>

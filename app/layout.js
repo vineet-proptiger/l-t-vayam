@@ -34,8 +34,8 @@ const nephilm = localFont({
 })
 
 export const metadata = {
-  title: 'L&T Wagle Estate Thane | Premium 2 & 3 BHK Apartments',
-  description: 'L&T Realty presents premium 2 & 3 BHK homes at Wagle Estate, Thane (Mulund Extension). 2 BHK from 690 sq.ft., EOI ₹2L. Enquire Now.',
+  title: 'L&T Vayam Thane | Premium 2 & 3 BHK Apartments',
+  description: 'L&T Realty presents premium 2 & 3 BHK homes at Vayam, Thane (Mulund Extension). 2 BHK from 690 sq.ft., EOI ₹2L. Enquire Now.',
   alternates: {
     canonical: 'https://lntvayamwagleestate.com/',
   },
@@ -64,8 +64,8 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Website",
-              "name": "L&T Vayam Wagle Estate",
-              "description": "L&T Vayam Wagle Estate in Thane offers premium 2 & 3 BHK residences designed for modern urban living. Enjoy luxury amenities.",
+              "name": "L&T Vayam Vayam",
+              "description": "L&T Vayam Vayam in Thane offers premium 2 & 3 BHK residences designed for modern urban living. Enjoy luxury amenities.",
               "url": "https://lntvayamwagleestate.com/",
               "provider": {
                 "@type": "Organization",
@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
                   "@type": "UnitPriceSpecification",
                   "price": "15700000",
                   "priceCurrency": "INR",
-                  "description": "Special Discount at L&T Vayam Wagle Estate"
+                  "description": "Special Discount at L&T Vayam Vayam"
                 }
               },
               "aggregateRating": {
@@ -100,7 +100,7 @@ export default function RootLayout({ children }) {
                   "bestRating": "5"
                 },
                 "author": { "@type": "Person", "name": "Anuj Singh" },
-                "reviewBody": "Highly Recommended L&T Vayam Wagle Estate, Mumbai."
+                "reviewBody": "Highly Recommended L&T Vayam Vayam, Mumbai."
               }
             })
           }}

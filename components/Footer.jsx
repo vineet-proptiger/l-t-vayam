@@ -10,23 +10,23 @@ const Footer = () => (
 
     <div style={{ maxWidth: '860px', margin: '0 auto', padding: '56px 24px 32px', textAlign: 'center' }}>
       <h2 style={{ fontSize: '24px', fontWeight: '800', fontFamily: F_JOST, marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.05em' }} data-aos="fade-in">
-        L&amp;T Wagle Estate
+        L&amp;T Vayam
       </h2>
       <p style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_JOST, fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>
-        Pre-Launch — Wagle Estate, Thane. By L&amp;T Realty.
+        Pre-Launch — Vayam, Thane. By L&amp;T Realty.
       </p>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
         <span style={{ width: '36px', height: '2.5px', background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', borderRadius: '2px' }} />
       </div>
       <p style={{ fontSize: '15px', color: '#bbb', fontFamily: F_SANS, lineHeight: 1.8, marginBottom: '32px', textAlign: 'justify' }}
         data-aos="fade-in" data-aos-delay="100">
-        L&amp;T Wagle Estate is a premium pre launch residential development by L&amp;T Realty, offering 2 BHK (690–790 Sq. Ft.) &amp; 3 BHK (1100–1290 Sq. Ft.) residences starting ₹1.57 Cr* at Wagle Estate, Thane (Mulund Extension). Featuring a landmark architectural elevation with world-class amenities and excellent connectivity — just ~10 mins from Mulund Toll Naka on LBS Marg — L&amp;T Wagle Estate is crafted for those who seek premium living at the cusp of Mumbai and Thane.
+        L&amp;T Vayam is a premium pre launch residential development by L&amp;T Realty, offering 2 BHK (690–790 Sq. Ft.) &amp; 3 BHK (1100–1290 Sq. Ft.) residences starting ₹1.57 Cr* at Vayam, Thane (Mulund Extension). Featuring a landmark architectural elevation with world-class amenities and excellent connectivity — just ~10 mins from Mulund Toll Naka on LBS Marg — L&amp;T Vayam is crafted for those who seek premium living at the cusp of Mumbai and Thane.
       </p>
     </div>
 
     <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-4 py-4 px-6 border-t border-[#222] text-center sm:text-left max-w-[1200px] mx-auto">
       <p style={{ fontSize: '13px', color: '#888', fontFamily: F_SANS }}>
-        &copy; 2026 L&amp;T Wagle Estate. All rights reserved.
+        &copy; 2026 L&amp;T Vayam. All rights reserved.
       </p>
       <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6">
         <Link href="/privacy-policy" style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_SANS }} title="Read our Privacy Policy">

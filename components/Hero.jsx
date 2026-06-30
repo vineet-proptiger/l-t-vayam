@@ -82,7 +82,7 @@ export default function Hero({ setIsOpen }) {
                 }}>
                   <Image
                     src={src}
-                    alt={`L&T Wagle Estate ${idx + 1}`}
+                    alt={`L&T Vayam ${idx + 1}`}
                     fill
                     className="object-cover"
                     style={{ objectPosition: 'center 20%' }}
@@ -126,7 +126,7 @@ export default function Hero({ setIsOpen }) {
               }}
                 className="px-2 py-1 sm:px-4 sm:py-1.5"
               >
-                ✦ Pre-Launch · Wagle Estate, Thane
+                ✦ Pre-Launch · Vayam, Thane
               </span>
             </div>
           </nav>
@@ -140,7 +140,7 @@ export default function Hero({ setIsOpen }) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
               <span style={{ display: 'block', width: '28px', height: '1px', background: 'var(--color-gold)', opacity: 0.8 }} />
               <span style={{ fontFamily: F_SANS, fontSize: '10px', fontWeight: 600, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--color-gold)' }}>
-                Wagle Estate, Thane
+                Vayam, Thane
               </span>
             </div>
             <h1 style={{
@@ -148,7 +148,7 @@ export default function Hero({ setIsOpen }) {
               fontSize: 'clamp(28px, 3.4vw, 52px)',
               fontWeight: 800, color: '#fff', lineHeight: 1.05, letterSpacing: '-0.02em',
             }}>
-              L&amp;T <span style={{ color: '#ffffff' }}>Wagle Estate</span>
+              L&amp;T <span style={{ color: '#ffffff' }}>Vayam</span>
             </h1>
           </div>
 
@@ -187,7 +187,7 @@ export default function Hero({ setIsOpen }) {
             <p style={{ fontFamily: F_SANS, fontSize: '13px', lineHeight: 1.6, color: '#ffffff', fontWeight: 400 }}>
               A landmark architectural development by{' '}
               <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>L&amp;T Realty</span> — premium 2 &amp; 3 BHK residences at{' '}
-              <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>Wagle Estate, Thane</span>.
+              <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>Vayam, Thane</span>.
             </p>
 
             {/* Trust badges */}

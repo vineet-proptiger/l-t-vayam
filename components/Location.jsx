@@ -31,7 +31,7 @@ const Location = () => {
             fontSize: '11px', fontWeight: '700', color: 'var(--color-gold)',
             fontFamily: F_JOST, letterSpacing: '0.1em', textTransform: 'uppercase',
             border: '1px solid var(--color-gold-light)', marginBottom: '10px',
-          }}>Wagle Estate, Thane</span>
+          }}>Vayam, Thane</span>
           <h2 style={{
             fontFamily: F_JOST, fontWeight: '800', fontSize: '26px',
             color: '#111827', margin: '0 0 6px', letterSpacing: '-0.01em',
@@ -120,7 +120,7 @@ const Location = () => {
                 background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', zIndex: 10,
               }} />
               <iframe
-                title="L&T Wagle Estate Location Map"
+                title="L&T Vayam Location Map"
                 src="https://maps.google.com/maps?q=Wagle+Industrial+Estate,+Thane,+Maharashtra&t=&z=14&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
@@ -143,7 +143,7 @@ const Location = () => {
                   color: '#fff', fontSize: '11px', fontFamily: F_JOST,
                   fontWeight: '700', letterSpacing: '0.04em'
                 }}>
-                  Wagle Estate, Thane, Maharashtra 400604
+                  Vayam, Thane, Maharashtra 400604
                 </span>
               </div>
             </div>

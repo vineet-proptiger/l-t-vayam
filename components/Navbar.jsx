@@ -21,7 +21,7 @@ const navLinks = [
 const ProjectLogo = () => (
   <img
     src={logoImages.tarc}
-    alt="L&T Wagle Estate"
+    alt="L&T Vayam"
     className="w-auto object-contain transition-all h-[42px] md:h-[56px]"
     style={{ maxWidth: '320px' }}
   />
@@ -46,7 +46,7 @@ const Navbar = ({ setIsOpen }) => {
         <div className="flex items-center justify-between h-[80px]">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center shrink-0" title="L&T Wagle Estate — Home">
+          <Link href="/" className="flex items-center shrink-0" title="L&T Vayam — Home">
             <ProjectLogo />
           </Link>
 

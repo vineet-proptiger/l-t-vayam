@@ -12,9 +12,9 @@ const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 const F_SERIF = 'var(--font-serif), Cormorant Garamond, serif'
 
-const PREVIEW_TEXT = 'L&T Wagle Estate is a premium Pre-Launch residential development by L&T Realty, strategically positioned at Wagle Estate, Thane - at the cusp of Mulund & Thane (Mulund Extension). The project offers spacious 2 BHK (690-790 Sq. Ft.) & 3 BHK (1100-1290 Sq. Ft.) residences with landmark architectural elevation. Designed for modern urban living, it features world-class amenities including a premium clubhouse, gymnasium, swimming pool, jogging track, kids play area, and landscaped gardens.'
+const PREVIEW_TEXT = 'L&T Vayam is a premium Pre-Launch residential development by L&T Realty, strategically positioned at Vayam, Thane - at the cusp of Mulund & Thane (Mulund Extension). The project offers spacious 2 BHK (690-790 Sq. Ft.) & 3 BHK (1100-1290 Sq. Ft.) residences with landmark architectural elevation. Designed for modern urban living, it features world-class amenities including a premium clubhouse, gymnasium, swimming pool, jogging track, kids play area, and landscaped gardens.'
 
-const MORE_TEXT = ' Located just ~10 minutes from Mulund Toll Naka on LBS Marg, L&T Wagle Estate provides seamless access to prime Mumbai locations and key commercial hubs. Site visits commence from 15th May 2026. With an EOI of just Rs. 2 Lakhs and only the first 100 units available at best launch pricing - this is a rare early-access opportunity in Thane\'s next high-potential address.'
+const MORE_TEXT = ' Located just ~10 minutes from Mulund Toll Naka on LBS Marg, L&T Vayam provides seamless access to prime Mumbai locations and key commercial hubs. Site visits commence from 15th May 2026. With an EOI of just Rs. 2 Lakhs and only the first 100 units available at best launch pricing - this is a rare early-access opportunity in Thane\'s next high-potential address.'
 
 const OPEN_VIEWS = [
   { dir: '10m', label: 'Mulund Toll Naka', sub: '10 Mins Away' },
@@ -212,12 +212,12 @@ const Overview = () => {
             fontSize: '11px', fontWeight: '700', color: 'var(--color-gold)',
             fontFamily: F_JOST, letterSpacing: '0.1em', textTransform: 'uppercase',
             border: '1px solid var(--color-gold-light)', marginBottom: '10px',
-          }}>Wagle Estate, Thane — Pre-Launch</span>
+          }}>Vayam, Thane — Pre-Launch</span>
           <h2 style={{
             fontFamily: F_JOST, fontWeight: '800', fontSize: '26px',
             color: '#111827', margin: 0, letterSpacing: '-0.01em',
           }}>
-            L&amp;T Wagle Estate <span style={{ color: 'var(--color-gold)' }}>Overview</span>
+            L&amp;T Vayam <span style={{ color: 'var(--color-gold)' }}>Overview</span>
           </h2>
           <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
             <span style={{
@@ -240,7 +240,7 @@ const Overview = () => {
                 border: '3px solid #fff',
               }}
             >
-              <Image src={overviewImage} alt="L&T Wagle Estate" fill className="object-cover object-top"
+              <Image src={overviewImage} alt="L&T Vayam" fill className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 33vw" priority />
               {/* <div style={{
               position: 'absolute', bottom: 0, left: 0, right: 0,
