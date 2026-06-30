@@ -37,7 +37,7 @@ export const metadata = {
   title: 'L&T Wagle Estate Thane | Premium 2 & 3 BHK Apartments',
   description: 'L&T Realty presents premium 2 & 3 BHK homes at Wagle Estate, Thane (Mulund Extension). 2 BHK from 690 sq.ft., EOI ₹2L. Enquire Now.',
   alternates: {
-    canonical: 'https://lntwagleestatethane.in/',
+    canonical: 'https://lntvayamwagleestate.com/',
   },
   icons: {
     icon: [
@@ -66,11 +66,11 @@ export default function RootLayout({ children }) {
               "@type": "Article",
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://lntwagleestatethane.in/"
+                "@id": "https://lntvayamwagleestate.com/"
               },
               "headline": "L&T Wagle Estate | Premium 2 & 3 BHK Apartments — Wagle Estate, Thane",
               "description": "L&T Wagle Estate — Premium 2 & 3 BHK Residences at Wagle Estate, Thane (Mulund Extension). By L&T Realty. 2 BHK from 690 Sq. Ft., 3 BHK from 1100 Sq. Ft. EOI ₹2 Lakhs.",
-              "image": "https://lntwagleestatethane.in/_next/image?url=%2Fimages%2Fhero%2Fbanner1.webp&w=1200&q=75",
+              "image": "https://lntvayamwagleestate.com/_next/image?url=%2Fimages%2Fhero%2Fbanner1.webp&w=1200&q=75",
               "author": {
                 "@type": "Organization",
                 "name": "Proptiger Marketing Services Pvt Ltd",
