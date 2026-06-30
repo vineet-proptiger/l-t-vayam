@@ -63,28 +63,45 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Article",
-              "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://lntvayamwagleestate.com/"
-              },
-              "headline": "L&T Wagle Estate | Premium 2 & 3 BHK Apartments — Wagle Estate, Thane",
-              "description": "L&T Wagle Estate — Premium 2 & 3 BHK Residences at Wagle Estate, Thane (Mulund Extension). By L&T Realty. 2 BHK from 690 Sq. Ft., 3 BHK from 1100 Sq. Ft. EOI ₹2 Lakhs.",
-              "image": "https://lntvayamwagleestate.com/_next/image?url=%2Fimages%2Fhero%2Fbanner1.webp&w=1200&q=75",
-              "author": {
+              "@type": "Website",
+              "name": "L&T Vayam Wagle Estate",
+              "description": "L&T Vayam Wagle Estate in Thane offers premium 2 & 3 BHK residences designed for modern urban living. Enjoy luxury amenities.",
+              "url": "https://lntvayamwagleestate.com/",
+              "provider": {
                 "@type": "Organization",
-                "name": "Proptiger Marketing Services Pvt Ltd",
-                "url": "https://www.proptiger.com/thane/wagle-estate/lt-wagle-estate"
+                "name": "lntvayamwagleestate",
+                "url": "https://lntvayamwagleestate.com/",
+                "logo": "https://lntvayamwagleestate.com/images/logo/logo.png"
               },
-              "publisher": {
-                "@type": "Organization",
-                "name": "Proptiger",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://www.proptiger.com/"
+              "image": "https://lntvayamwagleestate.com/_next/image?url=%2Fimages%2Fhero%2Fbanner1.webp&w=3840&q=75&dpl=dpl_6XMBKGFBGYTXtmm1phhBFnNxy4Q3",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "30000000",
+                "priceSpecification": {
+                  "@type": "UnitPriceSpecification",
+                  "price": "15700000",
+                  "priceCurrency": "INR",
+                  "description": "Special Discount at L&T Vayam Wagle Estate"
                 }
               },
-              "datePublished": "2026-04-22"
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "5723",
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "review": {
+                "@type": "Review",
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "author": { "@type": "Person", "name": "Anuj Singh" },
+                "reviewBody": "Highly Recommended L&T Vayam Wagle Estate, Mumbai."
+              }
             })
           }}
         />
