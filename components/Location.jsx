@@ -31,7 +31,7 @@ const Location = () => {
             fontSize: '11px', fontWeight: '700', color: 'var(--color-gold)',
             fontFamily: F_JOST, letterSpacing: '0.1em', textTransform: 'uppercase',
             border: '1px solid var(--color-gold-light)', marginBottom: '10px',
-          }}>L&amp;T Vayam, Thane</span>
+          }}>L&amp;T Wagle Estate, Thane</span>
           <h2 style={{
             fontFamily: F_JOST, fontWeight: '800', fontSize: '26px',
             color: '#111827', margin: '0 0 6px', letterSpacing: '-0.01em',
@@ -120,7 +120,7 @@ const Location = () => {
                 background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', zIndex: 10,
               }} />
               <iframe
-                title="L&T Vayam Location Map"
+                title="L&T Wagle Estate Location Map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.59944203097!2d72.9493414!3d19.198212499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9004fc2af31%3A0xb4e51163e07f453a!2sL%26T%20Realty%20Vayam%20Wagle!5e1!3m2!1sen!2sin!4v1782889032039!5m2!1sen!2sin"
                 width="100%"
                 height="100%"

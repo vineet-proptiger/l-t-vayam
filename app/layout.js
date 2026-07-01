@@ -53,7 +53,7 @@ export const metadata = {
     siteName: 'lntvayamwagleestate',
     images: [
       {
-        url: 'https://lntvayamwagleestate.com/images/logo/logo.png',
+        url: 'https://lntvayamwagleestate.com/images/gallery/g1.webp',
       }
     ],
   },
@@ -62,7 +62,7 @@ export const metadata = {
     site: '@lntvayamwagleestate',
     title: 'L&T Vayam Wagle Estate, Thane | Luxury 2 & 3 BHK Homes in Wagle Estate',
     description: 'L&T Vayam Wagle Estate introduces thoughtfully designed 2 & 3 BHK residences in the heart of Thane. Featuring modern amenities, superior connectivity, and exclusive launch pricing, this is your opportunity to own a premium home with an EOI starting from ₹2 Lakhs.',
-    images: ['https://lntvayamwagleestate.com/images/logo/logo.png'],
+    images: ['https://lntvayamwagleestate.com/images/gallery/g1.webp'],
   },
   icons: {
     icon: [
@@ -82,51 +82,107 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <GoogleTagManager gtmId="GTM-575H8R87" />
       <head>
-        <Script
-          id="json-ld-article"
+        {/* Organization */}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Website",
+              "@type": "RealEstateDeveloper",
               "name": "L&T Vayam Wagle Estate",
-              "description": "L&T Vayam Wagle Estate in Thane offers premium 2 & 3 BHK residences designed for modern urban living. Enjoy luxury amenities.",
-              "url": "https://lntvayamwagleestate.com/",
-              "provider": {
+              "alternateName": "L&T Wagle Estate",
+              "url": "https://lntvayamwagleestate.com",
+              "logo": "https://lntvayamwagleestate.com/images/logo/logo.png",
+              "parentOrganization": {
                 "@type": "Organization",
-                "name": "lntvayamwagleestate",
-                "url": "https://lntvayamwagleestate.com/",
-                "logo": "https://lntvayamwagleestate.com/images/logo/logo.png"
+                "name": "L&T Realty",
+                "url": "https://www.lntrealty.com"
               },
-              "image": "https://lntvayamwagleestate.com/_next/image?url=%2Fimages%2Fhero%2Fbanner1.webp&w=3840&q=75&dpl=dpl_6XMBKGFBGYTXtmm1phhBFnNxy4Q3",
-              "offers": {
-                "@type": "Offer",
-                "priceCurrency": "INR",
-                "price": "30000000",
-                "priceSpecification": {
-                  "@type": "UnitPriceSpecification",
-                  "price": "15700000",
-                  "priceCurrency": "INR",
-                  "description": "Special Discount at L&T Vayam Wagle Estate"
-                }
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5",
-                "reviewCount": "5723",
-                "bestRating": "5",
-                "worstRating": "1"
-              },
-              "review": {
-                "@type": "Review",
-                "reviewRating": {
-                  "@type": "Rating",
-                  "ratingValue": "5",
-                  "bestRating": "5"
-                },
-                "author": { "@type": "Person", "name": "Anuj Singh" },
-                "reviewBody": "Highly Recommended L&T Vayam Wagle Estate, Mumbai."
+              "sameAs": [
+                "https://www.lntrealty.com/",
+                "https://www.facebook.com/LnTRealtyOfficial",
+                "https://www.instagram.com/lnt_realty/",
+                "https://www.linkedin.com/company/l-t-realty/",
+                "https://x.com/LnT_Realty",
+                "https://www.youtube.com/@LnTRealty"
+              ]
+            })
+          }}
+        />
+
+        {/* Website */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "L&T Vayam Wagle Estate",
+              "url": "https://lntvayamwagleestate.com",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://lntvayamwagleestate.com/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
               }
+            })
+          }}
+        />
+
+        {/* Residence */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Residence",
+              "name": "L&T Vayam Wagle Estate",
+              "url": "https://lntvayamwagleestate.com",
+              "image": "https://lntvayamwagleestate.com/images/banner/banner.webp",
+              "description": "Premium 2, 3 & 4 BHK residences at L&T Vayam Wagle Estate, Thane with world-class amenities and excellent connectivity.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Wagle Estate",
+                "addressRegion": "Maharashtra",
+                "addressCountry": "IN"
+              },
+              "numberOfAccommodationUnits": "4 Towers",
+              "amenityFeature": [
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Clubhouse"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Swimming Pool"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Fitness Centre"
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  "name": "Landscaped Gardens"
+                }
+              ]
+            })
+          }}
+        />
+
+        {/* Breadcrumb */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://lntvayamwagleestate.com"
+                }
+              ]
             })
           }}
         />

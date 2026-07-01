@@ -12,9 +12,9 @@ const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
 const F_SERIF = 'var(--font-serif), Cormorant Garamond, serif'
 
-const PREVIEW_TEXT = 'L&T Vayam is a premium New-Launch residential development by L&T Realty, strategically positioned at L&T Vayam, Thane - at the cusp of Mulund & Thane (Mulund Extension). The project offers spacious 2 BHK (690-790 Sq. Ft.) & 3 BHK (1100-1290 Sq. Ft.) residences with landmark architectural elevation. Designed for modern urban living, it features world-class amenities including a premium clubhouse, gymnasium, swimming pool, jogging track, kids play area, and landscaped gardens.'
+const PREVIEW_TEXT = "L&T Wagle Estate is a premium residential development in Thane, thoughtfully designed to combine modern living with excellent connectivity. Spread across approximately 5 acres, this newly launched project offers spacious residences, premium lifestyle amenities, and a well-planned community for contemporary urban living. Located in the heart of Wagle Estate, it provides seamless access to major business districts, reputed schools, shopping destinations, and entertainment hubs."
 
-const MORE_TEXT = ' Located just ~10 minutes from Mulund Toll Naka on LBS Marg, L&T Vayam provides seamless access to prime Mumbai locations and key commercial hubs. Site visits commence from 15th May 2026. With an EOI of just Rs. 2 Lakhs and only the first 100 units available at best launch pricing - this is a rare early-access opportunity in Thane\'s next high-potential address.'
+const MORE_TEXT = " Developed by L&T Realty, one of India's most trusted real estate brands, the project reflects superior construction quality, contemporary architecture, and thoughtfully designed open spaces. Whether you're looking for your dream home or a promising investment with strong appreciation potential, L&T Wagle Estate presents an exceptional opportunity in Thane."
 
 const OPEN_VIEWS = [
   { dir: '10m', label: 'Mulund Toll Naka', sub: '10 Mins Away' },
