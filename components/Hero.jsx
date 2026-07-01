@@ -126,7 +126,7 @@ export default function Hero({ setIsOpen }) {
               }}
                 className="px-2 py-1 sm:px-4 sm:py-1.5"
               >
-                ✦ New-Launch · At Wagle Estate, Thane by L&T Realty
+                ✦ New Launch, Mulund Corridor
               </span>
             </div>
           </nav>
@@ -231,8 +231,12 @@ export default function Hero({ setIsOpen }) {
                 cursor: 'default',
                 overflow: 'hidden',
               }}>
-                <p style={{ fontFamily: F_JOST, fontSize: '19px', fontWeight: 700, color: 'var(--color-dark)', lineHeight: 1.2, marginBottom: '8px', whiteSpace: 'pre-line' }}>{s.val}</p>
-                <p style={{ fontFamily: F_SANS, fontSize: '9px', fontWeight: 700, letterSpacing: '0.13em', textTransform: 'uppercase', color: 'var(--color-muted, #7A7268)', lineHeight: 1.35, whiteSpace: 'pre-line' }}>{s.lbl}</p>
+                <span style={{ 
+                  fontFamily: F_SANS, fontSize: '9px', fontWeight: 700, letterSpacing: '0.13em', 
+                  textTransform: 'uppercase', color: 'var(--color-gold)', 
+                  display: 'inline-block', marginBottom: '6px'
+                }}>{s.lbl}</span>
+                <p style={{ fontFamily: F_JOST, fontSize: '19px', fontWeight: 700, color: 'var(--color-dark)', lineHeight: 1.2, whiteSpace: 'pre-line' }}>{s.val}</p>
               </div>
             ))}
           </div>
