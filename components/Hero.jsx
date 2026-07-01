@@ -126,7 +126,7 @@ export default function Hero({ setIsOpen }) {
               }}
                 className="px-2 py-1 sm:px-4 sm:py-1.5"
               >
-                ✦ New-Launch · L&T Vayam Mulund, Thane
+                ✦ New-Launch · At Wagle Estate, Thane by L&T Realty
               </span>
             </div>
           </nav>
@@ -138,9 +138,9 @@ export default function Hero({ setIsOpen }) {
             animation: 'heroRiseUp 0.9s 0.3s cubic-bezier(0.16,1,0.3,1) both',
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
-              <span style={{ display: 'block', width: '28px', height: '1px', background: 'var(--color-gold)', opacity: 0.8 }} />
-              <span style={{ fontFamily: F_SANS, fontSize: '10px', fontWeight: 600, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--color-gold)' }}>
-                L&T Vayam Mulund, Thane
+              <span style={{ display: 'block', width: '28px', height: '1.5px', background: '#FACC15', boxShadow: '0 1px 3px rgba(0,0,0,0.5)' }} />
+              <span style={{ fontFamily: F_SANS, fontSize: '11px', fontWeight: 800, letterSpacing: '0.22em', textTransform: 'uppercase', color: '#FACC15', textShadow: '0 2px 4px rgba(0,0,0,0.7)' }}>
+                At Wagle Estate, Thane by L&T Realty
               </span>
             </div>
             <h1 style={{
