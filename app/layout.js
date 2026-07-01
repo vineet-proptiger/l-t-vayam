@@ -34,7 +34,7 @@ const nephilm = localFont({
 })
 
 export const metadata = {
-  title: 'L&T Vayam Wagle Estate Thane | Luxury 2 & 3 BHK Homes by L&T Realty',
+  title: 'L&T Vayam Wagle Estate | Luxury 2 & 3 BHK Apartments Thane',
   description: 'L&T Vayam Wagle Estate Thane offers luxury 2 & 3 BHK residences from ₹1.57 Cr*. Landmark G+70 towers with premium amenities. Visit Site!',
   keywords: 'Vayam Wagle Estate, L&T Vayam Wagle Estate, L&T Wagle Estate, L&T Wagle Estate Thane, L&T Wagle Estate Mulund Extension, L&T Realty Thane, 2 BHK in Thane, 3 BHK in Thane, luxury apartments in Thane, pre launch projects in Thane, homes near Mulund, Wagle Estate residential project, L&T Realty projects, premium apartments in Thane, new launch projects in Thane, apartments near LBS Marg, Thane luxury homes',
   authors: [{ name: 'lntvayamwagleestate' }],
