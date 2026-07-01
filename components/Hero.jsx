@@ -185,9 +185,8 @@ export default function Hero({ setIsOpen }) {
             borderRight: '1px solid rgba(255,255,255,0.06)',
           }}>
             <p style={{ fontFamily: F_SANS, fontSize: '13px', lineHeight: 1.6, color: '#ffffff', fontWeight: 400 }}>
-              A landmark architectural development by{' '}
-              <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>L&amp;T Realty</span> — premium 2 &amp; 3 BHK residences at{' '}
-              <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>Vayam, Thane</span>.
+              <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>L&amp;T Vayam</span> The Perfect Balance of Prestige, Comfort, and Connectivity at{' '}
+              <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>Wagle Estate Thane</span>.
             </p>
 
             {/* Trust badges */}
@@ -218,20 +217,21 @@ export default function Hero({ setIsOpen }) {
             borderRight: '1px solid rgba(20,17,13,0.1)',
           }}>
             {[
-              { val: 'Thane', lbl: 'Mulund\nExtension' },
-              { val: '2 & 3 BHK', lbl: 'Residences' },
-              { val: '~10 Mins', lbl: 'Mulund\nToll Naka' },
-              { val: '₹1.57 Cr*', lbl: 'Starting\nPrice' },
+              { val: 'New\u00A0Launch', lbl: 'Status' },
+              { val: '13.5 Acres', lbl: 'Land Parcel' },
+              { val: '2 & 3 BHK\nResidences', lbl: 'Configurations' },
+              { val: '₹1.57 Cr*', lbl: 'Price' },
             ].map((s, i) => (
               <div key={i} style={{
-                padding: '22px 28px',
+                padding: '22px 24px',
                 display: 'flex', flexDirection: 'column', justifyContent: 'center',
                 borderRight: i % 2 === 0 ? '1px solid rgba(20,17,13,0.1)' : 'none',
                 borderBottom: i < 2 ? '1px solid rgba(20,17,13,0.1)' : 'none',
                 background: 'var(--color-bg, #F8F4EE)',
                 cursor: 'default',
+                overflow: 'hidden',
               }}>
-                <p style={{ fontFamily: F_JOST, fontSize: '20px', fontWeight: 700, color: 'var(--color-dark)', lineHeight: 1, marginBottom: '8px' }}>{s.val}</p>
+                <p style={{ fontFamily: F_JOST, fontSize: '19px', fontWeight: 700, color: 'var(--color-dark)', lineHeight: 1.2, marginBottom: '8px', whiteSpace: 'pre-line' }}>{s.val}</p>
                 <p style={{ fontFamily: F_SANS, fontSize: '9px', fontWeight: 700, letterSpacing: '0.13em', textTransform: 'uppercase', color: 'var(--color-muted, #7A7268)', lineHeight: 1.35, whiteSpace: 'pre-line' }}>{s.lbl}</p>
               </div>
             ))}
