@@ -14,7 +14,6 @@ const navLinks = [
   { name: 'Price', href: '#pricing' },
   { name: 'Location', href: '#location' },
   { name: 'Floor Plan', href: '#masterplan' },
-  { name: 'Developer', href: '#developer' },
 ]
 
 /* ── Inline SVG Logo ─────────────────────────────────────────── */

@@ -126,7 +126,7 @@ export default function Hero({ setIsOpen }) {
               }}
                 className="px-2 py-1 sm:px-4 sm:py-1.5"
               >
-                ✦ New-Launch · Vayam, Thane
+                ✦ New-Launch · L&T Vayam Mulund, Thane
               </span>
             </div>
           </nav>
@@ -140,7 +140,7 @@ export default function Hero({ setIsOpen }) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
               <span style={{ display: 'block', width: '28px', height: '1px', background: 'var(--color-gold)', opacity: 0.8 }} />
               <span style={{ fontFamily: F_SANS, fontSize: '10px', fontWeight: 600, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--color-gold)' }}>
-                Vayam, Thane
+                L&T Vayam Mulund, Thane
               </span>
             </div>
             <h1 style={{
@@ -244,13 +244,13 @@ export default function Hero({ setIsOpen }) {
             display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '6px',
           }}>
             <p style={{ fontFamily: F_JOST, fontSize: '13px', fontWeight: 700, textTransform: 'uppercase', color: 'var(--color-gold-dark, #8A6E28)', marginBottom: '8px' }}>
-              New-Launch — Exclusive Early Access
+             LANDMARK LIVING AT L&T WAGLE ESTATE
             </p>
             {[
-              'Premium 2 & 3 BHK Apartments Thane',
-              'Landmark Architectural Development by L&T Realty',
-              '~10 Mins from Mulund Toll Naka (LBS Marg)',
-              'EOI at just ₹2 Lakhs — First 100 Units at Best Price',
+              'Thoughtfully Designed Premium Residences',
+              'Panoramic City Views & Elevated Living',
+              'Prime Thane-Mulund Corridor Address',
+              '4 Iconic High-Rise Towers',
             ].map((item, i) => (
               <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <span style={{ width: '4px', height: '4px', borderRadius: '50%', background: 'var(--color-gold)', flexShrink: 0, opacity: 0.8 }} />
@@ -266,30 +266,27 @@ export default function Hero({ setIsOpen }) {
             display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '20px',
           }}>
             <div style={{ textAlign: 'center' }}>
-              <p style={{ fontFamily: F_SANS, fontSize: '14.5px', fontWeight: 700, color: '#ffffff', letterSpacing: '0.04em', marginBottom: '4px' }}>
-                2 &amp; 3 BHK Premium Residences
+              <p style={{ fontFamily: F_SANS, fontSize: '15.5px', fontWeight: 800, color: '#FACC15', letterSpacing: '-0.02em', marginBottom: '6px', whiteSpace: 'nowrap' }}>
+                Booking Window Now Open With
               </p>
-              <p style={{ fontFamily: F_SANS, fontSize: '11px', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--color-gold)', marginBottom: '6px' }}>
-                Starting at
+              <p style={{ fontFamily: F_SANS, fontSize: '24px', fontWeight: 800, color: '#ffffff', marginBottom: '8px' }}>
+                Priority Allotment
               </p>
-              <p className="blink-price" style={{ fontFamily: F_JOST, fontSize: '32px', fontWeight: 600, color: '#ffffff', lineHeight: 1 }}>
-                ₹1.57 Cr*
+              <p className="blink-price" style={{ fontFamily: F_JOST, fontSize: '38px', fontWeight: 700, color: '#ffffff', lineHeight: 1 }}>
+                ₹2 Lacs*
               </p>
             </div>
 
             <button
               onClick={() => setIsOpen(true)}
+              className="btn-gold"
               style={{
-                width: '100%', padding: '12px',
-                background: 'var(--color-gold)', color: '#fff',
-                border: 'none', borderRadius: '6px',
-                fontFamily: F_JOST, fontSize: '12.5px', fontWeight: 700,
-                letterSpacing: '0.10em', textTransform: 'uppercase', cursor: 'pointer',
-                boxShadow: '0 4px 18px rgba(201,168,76,0.4)',
-                transition: 'opacity 0.2s, transform 0.15s',
+                width: '100%',
+                borderRadius: '6px',
+                padding: '12px',
+                fontSize: '13px',
+                letterSpacing: '0.10em',
               }}
-              onMouseEnter={e => { e.currentTarget.style.opacity = '0.88'; e.currentTarget.style.transform = 'translateY(-1px)' }}
-              onMouseLeave={e => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.transform = 'translateY(0)' }}
             >
               Request Brochure
             </button>

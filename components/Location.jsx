@@ -31,7 +31,7 @@ const Location = () => {
             fontSize: '11px', fontWeight: '700', color: 'var(--color-gold)',
             fontFamily: F_JOST, letterSpacing: '0.1em', textTransform: 'uppercase',
             border: '1px solid var(--color-gold-light)', marginBottom: '10px',
-          }}>Vayam, Thane</span>
+          }}>L&amp;T Vayam, Thane</span>
           <h2 style={{
             fontFamily: F_JOST, fontWeight: '800', fontSize: '26px',
             color: '#111827', margin: '0 0 6px', letterSpacing: '-0.01em',
@@ -121,13 +121,13 @@ const Location = () => {
               }} />
               <iframe
                 title="L&T Vayam Location Map"
-                src="https://maps.google.com/maps?q=Wagle+Industrial+Estate,+Thane,+Maharashtra&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.59944203097!2d72.9493414!3d19.198212499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9004fc2af31%3A0xb4e51163e07f453a!2sL%26T%20Realty%20Vayam%20Wagle!5e1!3m2!1sen!2sin!4v1782889032039!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '420px', display: 'block' }}
                 allowFullScreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
               />
               <div style={{
                 position: 'absolute', bottom: '16px', left: '16px', zIndex: 10,
@@ -143,7 +143,7 @@ const Location = () => {
                   color: '#fff', fontSize: '11px', fontFamily: F_JOST,
                   fontWeight: '700', letterSpacing: '0.04em'
                 }}>
-                  Vayam, Thane, Maharashtra 400604
+                  L&amp;T Vayam, Thane, Maharashtra 400604
                 </span>
               </div>
             </div>

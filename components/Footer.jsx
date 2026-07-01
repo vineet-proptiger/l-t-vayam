@@ -13,14 +13,14 @@ const Footer = () => (
         L&amp;T Vayam
       </h2>
       <p style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_JOST, fontWeight: '700', letterSpacing: '1.5px', textTransform: 'uppercase', marginBottom: '12px' }}>
-        New-Launch — Vayam, Thane. By L&amp;T Realty.
+        New-Launch —L&T Vayam Mulund, Thane. By L&amp;T Realty.
       </p>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
         <span style={{ width: '36px', height: '2.5px', background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', borderRadius: '2px' }} />
       </div>
       <p style={{ fontSize: '15px', color: '#bbb', fontFamily: F_SANS, lineHeight: 1.8, marginBottom: '32px', textAlign: 'justify' }}
         data-aos="fade-in" data-aos-delay="100">
-        L&amp;T Vayam is a premium pre launch residential development by L&amp;T Realty, offering 2 BHK (690–790 Sq. Ft.) &amp; 3 BHK (1100–1290 Sq. Ft.) residences starting ₹1.57 Cr* at Vayam, Thane (Mulund Extension). Featuring a landmark architectural elevation with world-class amenities and excellent connectivity — just ~10 mins from Mulund Toll Naka on LBS Marg — L&amp;T Vayam is crafted for those who seek premium living at the cusp of Mumbai and Thane.
+        L&amp;T Vayam is a premium pre launch residential development by L&amp;T Realty, offering 2 BHK (690–790 Sq. Ft.) &amp; 3 BHK (1100–1290 Sq. Ft.) residences starting ₹1.57 Cr* at L&amp;T Vayam, Thane (Mulund Extension). Featuring a landmark architectural elevation with world-class amenities and excellent connectivity — just ~10 mins from Mulund Toll Naka on LBS Marg — L&amp;T Vayam is crafted for those who seek premium living at the cusp of Mumbai and Thane.
       </p>
     </div>
 
