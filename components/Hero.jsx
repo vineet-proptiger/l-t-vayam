@@ -111,7 +111,7 @@ export default function Hero({ setIsOpen }) {
           >
 
 
-            {/* New Pre-Launch Badge — Right */}
+            {/* New New-Launch Badge — Right */}
             <div className="flex flex-wrap items-center justify-end gap-2 sm:gap-3 w-full sm:w-auto"
               style={{ animation: 'heroFadeDown 0.7s 0.2s ease both' }}
             >
@@ -126,7 +126,7 @@ export default function Hero({ setIsOpen }) {
               }}
                 className="px-2 py-1 sm:px-4 sm:py-1.5"
               >
-                ✦ Pre-Launch · Vayam, Thane
+                ✦ New-Launch · Vayam, Thane
               </span>
             </div>
           </nav>
@@ -244,7 +244,7 @@ export default function Hero({ setIsOpen }) {
             display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '6px',
           }}>
             <p style={{ fontFamily: F_JOST, fontSize: '13px', fontWeight: 700, textTransform: 'uppercase', color: 'var(--color-gold-dark, #8A6E28)', marginBottom: '8px' }}>
-              Pre-Launch — Exclusive Early Access
+              New-Launch — Exclusive Early Access
             </p>
             {[
               'Premium 2 & 3 BHK Apartments Thane',
