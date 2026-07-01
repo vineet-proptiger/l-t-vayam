@@ -83,6 +83,7 @@ export default function Hero({ setIsOpen }) {
                   <Image
                     src={src}
                     alt={`L&T Vayam ${idx + 1}`}
+                    title="L&T Wagle Estate - Premium 2 & 3 BHK Homes in Thane"
                     fill
                     className="object-cover"
                     style={{ objectPosition: 'center 20%' }}

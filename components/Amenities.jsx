@@ -44,6 +44,7 @@ const Amenities = ({ setIsOpen }) => {
           {amenityImages.map((item, idx) => (
             <div
               key={idx}
+              title={item.title}
               onClick={() => setLightbox(idx)}
               onMouseEnter={() => setHovered(idx)}
               onMouseLeave={() => setHovered(null)}

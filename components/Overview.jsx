@@ -240,7 +240,7 @@ const Overview = () => {
                 border: '3px solid #fff',
               }}
             >
-              <Image src={overviewImage} alt="L&T Vayam" fill className="object-cover object-top"
+              <Image src={overviewImage} alt="L&T Vayam" title="L&T Wagle Estate - Modern Urban Living in Thane by L&T Realty" fill className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 33vw" priority />
               {/* <div style={{
               position: 'absolute', bottom: 0, left: 0, right: 0,

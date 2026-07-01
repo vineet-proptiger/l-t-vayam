@@ -47,6 +47,7 @@ const Gallery = ({ setIsOpen }) => {
           {galleryImages.map((img, idx) => (
             <div
               key={idx}
+              title={img.title}
               onClick={() => setLightbox(idx)}
               onMouseEnter={() => setHovered(idx)}
               onMouseLeave={() => setHovered(null)}

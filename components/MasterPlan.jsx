@@ -171,7 +171,7 @@ const MasterPlan = ({ setIsOpen }) => {
               </div>
 
               {/* Blurred image */}
-              <Image src={plans[activePlan].img} alt={plans[activePlan].label} fill
+              <Image src={plans[activePlan].img} alt={plans[activePlan].label} title="L&T Wagle Estate Project Master Plan & Layout" fill
                 style={{ objectFit: 'cover', filter: 'blur(5px)', transform: 'scale(1.06)' }} />
 
               {/* Dark overlay */}
